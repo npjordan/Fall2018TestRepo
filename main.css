@@ -26,9 +26,8 @@ hr{
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
-.imagegallery li{
-  display: inline;
+  display: flex;
+  flex-direction: row;
 }
 .image1, .image2, .image3, .image4{
   margin: 10px;
